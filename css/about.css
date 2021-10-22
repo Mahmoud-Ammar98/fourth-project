@@ -1,0 +1,66 @@
+.header
+    {
+        height:200px;
+        z-index:100;
+        position: relative;
+    }
+.header .logo h1
+    {
+        text-shadow:-4px -4px 7px rgba(94, 0, 0, 0.7);
+        text-shadow:  5px 5px 3px rgba(220, 219, 219, 0.357);
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:50px;
+    }
+    .blog .box 
+    {   margin-top:10px;
+        margin-bottom: 20px;;
+        float: left;
+        width: 80%;
+        border: 3px solid #c5bdbd;
+        margin-left: 10%;
+        
+    }
+    .blog .box .imgs
+    {
+        width:100%;
+        height:350px;
+        background-color:#464141;
+        overflow: hidden;
+       
+    }
+    .blog .box .title .but 
+    {
+        
+        background-color:  rgb(226, 200, 200);
+        display: flex;
+    }
+.blog .box .title .but a
+    {
+        text-decoration: none;
+        
+    }
+.blog .box .title .but button
+    {
+        
+          text-decoration:none;
+        color:rgba(238, 222, 222, 0.7);
+        padding: 10px 15px;
+        background-color:  #b50000;
+        margin:10px 20px 0px;
+        
+        border:none;
+        outline: none;
+        text-shadow: 2px 2px 3px seashell ;
+        text-transform: capitalize;
+        cursor: pointer;
+        border-radius: 10px;
+        display:block;
+        transition: all 0.9s ease;
+    }
+.blog .box .title .but button:hover
+    {
+        color:#b50000;
+        background-color: rgb(141, 141, 132);
+        text-shadow: 3px 4px 3px #464141;
+    }
